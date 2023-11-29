@@ -1,0 +1,22 @@
+/* NAVBAR CUSTOM */
+.logo-custom {
+    position: absolute;
+    left: 50%;
+    margin-top: 60px;
+}
+
+.navbar-custom-space {
+    margin-top: 100px;
+}
+
+
+/* HEADER CUSTOM */
+header {
+    height: 50vh;
+    background-image:
+    linear-gradient(to bottom, rgb(255, 255, 255), rgba(117, 19, 93, 0)),
+    url('./media/switzerland-862870_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
