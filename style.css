@@ -12,7 +12,7 @@
 
 /* HEADER CUSTOM */
 header {
-    height: 50vh;
+    height: 80vh;
     background-image:
     linear-gradient(to bottom, rgb(255, 255, 255), rgba(117, 19, 93, 0)),
     url('./media/switzerland-862870_1920.jpg');
@@ -20,3 +20,36 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     }
+
+.cap {
+    text-transform: capitalize;
+}
+
+.icon-width img {
+    width: 50px;
+}
+
+.border-card {
+    border-bottom: 3px solid darkred;
+    position: relative;
+}
+
+.border-card::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid darkred;
+    position: absolute;
+    bottom: -11px;
+    transform: translate(-50%, 0px);
+}
+
+.height-desc-custom {
+    height: 50vh;
+}
+
+h2 {
+    color: darkred;
+}
