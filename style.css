@@ -1,3 +1,11 @@
+body {
+    margin: 0;
+}
+
+main {
+    margin: 0;
+}
+
 /* NAVBAR CUSTOM */
 .logo-custom {
     position: absolute;
@@ -53,6 +61,7 @@ header {
     height: 50vh;
 }
 
+
 h2 {
     color: darkred;
 }
@@ -90,4 +99,26 @@ h2 {
     height: 120px;
     border-radius: 50%;
     border: 2px solid darkred;
+}
+
+/* our benefit */
+
+.img-our-benefit {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:576px) {
+
+    .media-icona {
+        width: 80%;
+    }
+    
 }
