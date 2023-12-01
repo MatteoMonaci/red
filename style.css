@@ -82,3 +82,12 @@ h2 {
     left: -2px;
     transform: translate(-50%, 0px);
 }
+
+/* our team */
+
+.img-our-team {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+}
