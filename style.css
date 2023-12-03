@@ -66,6 +66,10 @@ h2 {
     color: darkred;
 }
 
+.footer-text-color {
+    color: white;
+}
+
 .btn-primary {
     background-color: darkred;
 
@@ -123,7 +127,32 @@ h2 {
 @media screen and (max-width:576px) {
 
     .media-icona {
+        
         width: 80%;
     }
     
+}
+
+
+@media screen and (min-width:768px) {
+ 
+    .list-group {
+
+        flex-direction: column;
+    }
+
+    ul {
+
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    ul {
+        list-style-type: none;
+    }
+
 }
