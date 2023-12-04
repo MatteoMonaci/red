@@ -63,6 +63,7 @@ header {
 
 
 h2 {
+
     color: darkred;
 }
 
@@ -156,3 +157,27 @@ h2 {
     }
 
 }
+
+
+        /* font/ */
+
+
+h1, h2 {
+    color: darkred;
+    font-family: "nova square", sans-serif;
+}
+
+h4 {
+    font-family: "rajdhani";
+    color: darkred;
+}
+p{
+    font-family: "rajdhani";
+}
+
+i{
+    color: darkred;
+}
+
+
+
